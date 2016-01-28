@@ -4,57 +4,64 @@
 <head>
     <meta charset="utf-8">
     <title>Barbershop | Средства для ухода | Каталог</title>
-    <link rel="stylesheet" type="text/css" href="css/normalize.css"
-    <link rel="stylesheet" type="text/css" href="css/main.css"
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<header>
-		<nav>
+		<div class="header-frame">	
+			<a class="logo-inside" href="index.html"><img src="img/logo-inside.png" alt=""></a>
 			<ul class="navigation-list">
-				<li><a class="top-logo" href="index.html">Barbershop Logo (image 105x30px)</a></li>
-				<li>Информация</li>
-				<li>Новости</li>
-				<li>Прайс-лист</li>
-				<li>Магазин</li>
-				<li>Контакты</li>
-				<li><a class="enterbutton" href="#">
-				<img src="img/enter-sm.jpg" class="enter-sm-img" alt="">
-				<span class="enter-sm-txt">Вход</span></a></li>	
+				<li><a href="#">Информация</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Прайс-лист</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Контакты</a></li>
 			</ul>
-		</nav>	
+			<div class="enter-btn"><a href="#">
+				<img src="img/icon-login.png" class="icon-login" alt="">
+				<span class="enter-sm-txt">Вход</span></a></li>	
+			</div>
+		</div>
 	</header>
-		<section class="top-subheader">
+	<div class="all-content">
+		<div class="top-subheader">
 			<h1>Средства для ухода</h1>
 			<ul>
 				<li>Главная</li>
 				<li>Магазин</li>
 				<li>Средства для ухода</li>
-				<!-- точки добавляем в CSS? -->
 			</ul>	
-		</section>
-		<section class="content">
-			<ul class="manufacters">
-		            <li class="aside">
-		            <h2>Производители:</h2>
-		            <ul class="manufacters-filter">
-		                <li><input type="checkbox" id="baxter"><label for="baxter">Baxter of California</label></li>
-		                <li><input type="checkbox" id="baxter1"><label for="baxter1">Mr Natty</label></li>
-		                <li><input type="checkbox" id="baxter2"><label for="baxter2">Suavecito</label></li>
-		                <li><input type="checkbox" id="baxter3"><label for="baxter3">Malin+Goetz</label></li>
-		                <li><input type="checkbox" id="baxter3"><label for="baxter3">Murray's</label></li>
-		                <li><input type="checkbox" id="baxter3"><label for="baxter3">American Crew</label></li>
-		            </ul>
-	
-		                <ul>
-		                    <li>
-		                    <div class="manufacters-grid">
-	                            <img src="img/enter-sm.jpg" class="product-image" alt="">
+		</div>			
+		<div class="manufacters-products">
+            <form action="#" method="post">
+	            <h2>Производители:</h2>
+	            <input type="checkbox" id="bax_of_calif_ID" value="bax_of_calif_VAL" name="bax_of_calif_NAME"> <label class="bax_of_calif_LAB" for="bax_of_calif_ID">Baxter of California</label><br>
+	            <input type="checkbox" id="mr_natty_ID" value="mr_natty__VAL" name="mr_natty__NAME"> <label class="mr_natty__LAB" for="mr_natty__ID">Mr Natty</label><br>
+	            <input type="checkbox" id="suavec_ID" value="suavec_VAL" name="suavec_NAME"> <label class="suavec_LAB" for="suavec_ID">Suavetico</label><br>
+	            <input type="checkbox" id="main_Goetz_ID" value="main_Goetz_VAL" name="main_Goetz_NAME"> <label class="main_Goetz_LAB" for="main_Goetz_ID">Malin Goetz</label><br>
+	            <input type="checkbox" id="murrays_ID" value="murrays_VAL" name="murrays_NAME"> <label class="murrays_LAB" for="murrays_ID">Murray's</label><br>
+	            <input type="checkbox" id="americ_crew_ID" value="americ_crew_VAL" name="americ_crew_NAME"> <label class="americ_crew_LAB" for="americ_crew_ID">American Crew</label><br>
+            </form>
+            
+            <form action="#" method="post">
+	            <h2>Группы товаров:</h2>
+	            <input type="radio" id="shaving_accessories_ID" valu="shaving_accessories_VAL" name="shaving_accessories_NAME"><label for="shaving_accessories_ID">Бритвенные принадлежности</label><br>
+	            <input type="radio" id="care_tools_ID" valu="care_tools_VAL" name="care_tools_NAME"><label for="care_tools_ID">Средства для ухода</label><br>
+	            <input type="radio" id="accessories_ID" valu="accessories_VAL" name="accessories_NAME"><label for="accessories_ID">Аксессуары</label>
+            </form>
+		</div>
+		
+<!-- Сделал до этого места. Теперь думаю, как оформить блок со списком товаров-->		
+		
+		
+		    <div class="shop-items-list">
+			    <div        
 	                            <h3>Набор для путешествий "Baxter of California"</h3>
 	                            <div class="price">2900 руб.</div>
 	                            <button class="">Купить</button> 
-	                        </div>
-		                    </li>
-		                    <li>
+	                        
+		                  
 		                    <div class="manufacters-grid">
 	                            <img src="img/enter-sm.jpg" class="product-image" alt="">
 	                            <h3>Увлажняющий кондиционер "Baxter of California"</h3>
@@ -91,6 +98,8 @@
 	                    </div>
 	                </div>
 	                
+	        <div>
+	                
 	                <ul class="paging">
 	                    <li>1</li><li class="act">2</li><li>3</li>
 	                </ul>
@@ -98,6 +107,8 @@
             </li>
             <button>Показать</butotn>
             </ul>
-		</section>
-		<footer></footer>
+		</div>
+	</div>
+
+	<footer></footer>
 </body>

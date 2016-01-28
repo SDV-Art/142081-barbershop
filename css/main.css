@@ -1,7 +1,87 @@
-ul.manufacters li {
+/* Header */
+.header-frame {
+	border: red solid 1px;
+	background-color: black;
+	min-height: 50px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+
+.navigation-list li {
 	display: inline;
 }
 
-h1 {
-	color: red;
+.navigation-list {
+	display: inline;
+	border: 1px solid red;
+	color: white;
 }
+
+.logo-inside img {
+	display: inline;
+	border: 1px solid red;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+.enter-btn {
+	display: inline;
+	border: red 1px solid;
+	padding-left: 30px;
+	color: white;
+}
+
+
+
+.enter-btn a {
+	color: white;
+}
+
+/*main content*/
+
+.all-content {
+	width: 100%;
+	border: 2px solid red;
+	background-color: #f3f0ed;
+}
+
+/*subheader*/
+
+h1 {
+	color: blue;
+	font-family: PT Sans Narrow;
+	font-weigth: bold;
+	font-size: 30px;
+}
+
+.top-subheader {
+	border: 1px red solid;
+}
+
+.top-subheader h1 {
+	padding-left: 20px;
+}
+
+.top-subheader li {
+	display: inline;
+	margin: 20px;
+}
+
+
+/* Фильтр "производители" и "группы товаров" */
+
+.manufacters-products {
+	border: red solid 1px;
+	display: inline;	
+}
+
+/*список товаров*/
+
+.shop-items-list {
+	border: 1px solid red;
+}
+
