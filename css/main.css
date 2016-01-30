@@ -1,5 +1,10 @@
+.container {
+	min-width: 960px;
+	margin: auto 0;
+}
+
 /* Header */
-.header-frame {
+.header-top {
 	border: red solid 1px;
 	background-color: black;
 	min-height: 50px;
@@ -9,15 +14,25 @@
 	
 }
 
-
-.navigation-list li {
+.main-navigation {
 	display: inline;
 }
 
-.navigation-list {
+.main-navigation ul {
 	display: inline;
-	border: 1px solid red;
-	color: white;
+}
+
+.main-navigation li {
+	display: inline;
+}
+
+.navigation-list li {
+	display: inline-block;
+}
+
+
+.logo-inside {
+	display: inline;
 }
 
 .logo-inside img {
@@ -44,9 +59,11 @@
 /*main content*/
 
 .all-content {
-	width: 100%;
+	width: 960px;
 	border: 2px solid red;
 	background-color: #f3f0ed;
+	overflow: auto;
+	margin: auto;
 }
 
 /*subheader*/
@@ -76,12 +93,13 @@ h1 {
 
 .manufacters-products {
 	border: red solid 1px;
-	display: inline;	
+	float: left;	
 }
 
 /*список товаров*/
 
 .shop-items-list {
 	border: 1px solid red;
+	float: right;
 }
 

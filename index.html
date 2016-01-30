@@ -12,7 +12,7 @@
 		<div class="container">
 			<a class="logo-inside" href="index.html"><img src="img/logo-inside.png" alt=""></a>
 			<nav class="main-navigation">
-				<ul class="navigation-list">
+				<ul>
 					<li><a href="#">Информация</a></li>
 					<li><a href="#">Новости</a></li>
 					<li><a href="#">Прайс-лист</a></li>
@@ -30,10 +30,10 @@
 	<main class="container">
 		<div class="top-subheader">
 			<h1>Средства для ухода</h1>
-			<ul>
-				<li>Главная</li>
-				<li>Магазин</li>
-				<li>Средства для ухода</li>
+			<ul class="breadcrumbs">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li><a href="#">Средства для ухода</a></li>
 			</ul>	
 		</div>
 	</main>
@@ -41,9 +41,9 @@
 					
 		<div class="manufacters-products">
             <form action="#" method="post">
-	            <h2>Производители:</h2>
+	            <legend>Производители:</legend>
 	            <input type="checkbox" id="bax_of_calif_ID" value="bax_of_calif_VAL" name="bax_of_calif_NAME"> <label class="bax_of_calif_LAB" for="bax_of_calif_ID">Baxter of California</label><br>
-	            <input type="checkbox" id="mr_natty_ID" value="mr_natty__VAL" name="mr_natty__NAME"> <label class="mr_natty__LAB" for="mr_natty__ID">Mr Natty</label><br>
+	            <input type="checkbox" id="mr_natty_ID" value="mr_natty_VAL" name="mr_natty_NAME"> <label class="mr_natty_LAB" for="mr_natty_ID">Mr Natty</label><br>
 	            <input type="checkbox" id="suavec_ID" value="suavec_VAL" name="suavec_NAME"> <label class="suavec_LAB" for="suavec_ID">Suavetico</label><br>
 	            <input type="checkbox" id="main_Goetz_ID" value="main_Goetz_VAL" name="main_Goetz_NAME"> <label class="main_Goetz_LAB" for="main_Goetz_ID">Malin Goetz</label><br>
 	            <input type="checkbox" id="murrays_ID" value="murrays_VAL" name="murrays_NAME"> <label class="murrays_LAB" for="murrays_ID">Murray's</label><br>
@@ -51,14 +51,15 @@
             </form>
             
             <form action="#" method="post">
-	            <h2>Группы товаров:</h2>
-	            <input type="radio" id="shaving_accessories_ID" valu="shaving_accessories_VAL" name="shaving_accessories_NAME"><label for="shaving_accessories_ID">Бритвенные принадлежности</label><br>
-	            <input type="radio" id="care_tools_ID" valu="care_tools_VAL" name="care_tools_NAME"><label for="care_tools_ID">Средства для ухода</label><br>
-	            <input type="radio" id="accessories_ID" valu="accessories_VAL" name="accessories_NAME"><label for="accessories_ID">Аксессуары</label>
+	            <legend>Группы товаров:</legend>
+	            <input type="radio" id="shaving_accessories_ID" value="shaving_accessories_VAL" name="accessories_groups"><label for="shaving_accessories_ID">Бритвенные принадлежности</label><br>
+	            <input type="radio" id="care_tools_ID" value="care_tools_VAL" name="accessories_groups"><label for="care_tools_ID">Средства для ухода</label><br>
+	            <input type="radio" id="accessories_ID" value="accessories_VAL" name="accessories_groups"><label for="accessories_ID">Аксессуары</label>
+	            <button type="button">Показать</button>
             </form>
 		</div>
 		
-<!-- Сделал до этого места. Теперь думаю, как оформить блок со списком товаров-->		
+<!--	сверстал до этого места -->
 		
 		
 		    <div class="shop-items-list">
@@ -85,7 +86,7 @@
 		                    </li>
 		                </ul>
 		                
-		                
+.hello		                
 		            </li>
 		            <li class="goods-grid">
 	            
