@@ -103,3 +103,20 @@ h1 {
 	float: right;
 }
 
+.buy-button-container {
+	min-height: 43px;
+	border: 1px solid red;
+}
+
+.product-container {
+	display: inline;
+	border: red solid 1px;
+}
+
+.shop-pages ul li {
+	display: inline;
+}
+
+/* Footer Items */
+
+.social-icons ul li {display: inline;}
