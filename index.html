@@ -52,50 +52,52 @@
 									</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="news">
-				<b>Новости</b>
-				<div class="single-news">
-					<p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
-					<p class="news-date">25 сентября</p>
-				</div>
-				<div class="single-news">
-					<p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладетель множества титулов и наград пополнил наши стройные ряды</p>
-					<p class="news-date">19 сентября</p>
-				</div>
-				<a class="universall-button">Все новости</a>
+		<div class="index-content">
+			<div class="index-content-left">
+				<h2>Новости</h2>
+				<ul class="news-preview">
+					<li>
+						<p>Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки</p>
+						<time datetime="2015-09-25">25 сентября</time>
+					</li>
+					<li>
+						<p>В нашей команде пополнение, Борис «Бритва» Стригунец, обладетель множества титулов и наград пополнил наши стройные ряды</p>
+						<time datetime="2015-09-19">19 сентября</time>
+					</li>
+				</ul>
+				<a class="btn" href="#">Все новости</a>
 			</div>
-			<div class="galery">
-				<img class="main-page-galley" src="img/barbershop-inside.jpg"
-				<a class="gallery-nav" href="#">Назад</a>
-				<a class="gallery-nav" href="#">Вперед</a>				
+
+			<div class="index-content-right">
+				<h2>Фотогалерея</h2>
+				<figure class="gallery-content">
+					<img src="img/barbershop-inside.jpg"
+				</figure>
+				<button class="btn galley-content">Назад</button>
+				<button class="btn galley-content">Вперед</button>			
 			</div>
 		</div>
-		<div class="container">
-			<div class="contacts">
-				<b>Контактная информация</b>
+		<div class="index-content">
+			<div class="index-content-left">
+				<h2>Контактная информация</h2>
 				<p>Барбершоп «бородинский»<br>
-				   Адрес: г. санкт-петербург, б. конюшенная, д. 19/8<br>
+				   Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
 				   Телефон: +7 (495) 666-02-66</p>
 				<p>Время работы:<br> 
 				   пн — пт: с 10:00 до 22:00<br>
 				   сб — вс: с 10:00 до 19:00</p>
-				<a class="universall-button" href="#">Как проехать</a>
-				<a class="universall-button" href="#">Обратная связь</a>
+				<a class="btn" href="#">Как проехать</a>
+				<a class="btn" href="#">Обратная связь</a>
 			</div>
-			<div class="registration">
+			<div class="index-content-right">
+				<h2>Записаться</h2>
 				<p>Укажите желаемую дату и время и мы свяжемся с вами для подтверждения брони</p>
-				<form action="#" method="post">
-					<table>
-						<tr>
-							<td><input type="text" id="date-ID" name="date-name"></td>
-							<td><input type="text" id="time-ID" name="time-name"></td>
-						</tr>
-						<tr>
-							<td><input type="text" id="name-ID" name="name-name"></td>
-							<td><input type="text" id="phone-ID" name="phone-name"></td>
-						</tr>
-					</table>
+				<form class="appointment-form" action="https://echo.htmlanacdemy.ru" method="post">
+					<input type="text" name="date" value="" placeholder="Дата">
+					<input type="text" name="time" value="" placeholder="Время">
+					<input type="text" name="name" value="" placeholder="Ваше имя">
+					<input type="tel" name="phone" value="" placeholder="Телефон">
+					<button class="btn" type="submit">Отправить</button>
 				</form>
 			</div>
 		</div>
