@@ -1,0 +1,136 @@
+.container {
+	min-width: 960px;
+	margin: auto 0;
+}
+
+/* Header */
+.header-top {
+	border: red solid 1px;
+	background-color: black;
+	min-height: 72px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.main-navigation {
+	display: inline;
+	float: left;
+	margin-top: 20px;
+}
+
+.main-navigation ul {
+	box-sizing: border-box;
+	display: inline;
+	font-family: PT Sans Narrow;
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.main-navigation a:link {color:white;}
+
+.main-navigation li {
+	box-sizing: border-box;
+	display: inline;
+	margin-top: 40px;
+	margin-right: 30px;
+}
+
+
+
+
+.logo-inside {
+	display: inline;
+}
+
+.logo-inside img {
+	display: inline;
+	border: 1px solid red;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+
+.enter-btn {
+	display: inline;
+	border: red 1px solid;
+	padding-left: 10px;
+	color: white;
+	margin-top: 20px;
+}
+
+
+
+.enter-btn a {
+	color: white;
+}
+
+.main-logo {
+	border: solid 1px red;
+	padding-left: 100px;
+}
+
+/*main content*/
+
+.all-content {
+	width: 960px;
+	border: 2px solid red;
+	background-color: #f3f0ed;
+	overflow: auto;
+	margin: auto;
+}
+
+/*subheader*/
+
+h1 {
+	color: blue;
+	font-family: PT Sans Narrow;
+	font-weigth: bold;
+	font-size: 30px;
+}
+
+.top-subheader {
+	border: 1px red solid;
+}
+
+.top-subheader h1 {
+	padding-left: 20px;
+}
+
+.top-subheader li {
+	display: inline;
+	margin: 20px;
+}
+
+
+/* Фильтр "производители" и "группы товаров" */
+
+.manufacters-products {
+	border: red solid 1px;
+	float: left;	
+}
+
+/*список товаров*/
+
+.shop-items-list {
+	border: 1px solid red;
+	float: right;
+}
+
+.buy-button-container {
+	min-height: 43px;
+	border: 1px solid red;
+}
+
+.product-container {
+	display: inline;
+	border: red solid 1px;
+}
+
+.shop-pages ul li {
+	display: inline;
+}
+
+/* Footer Items */
+
+.social-icons ul li {display: inline;}

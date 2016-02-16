@@ -1,11 +1,14 @@
 html,
+body {
+	min-width: 1122px;
+	min-height: 1762px;
+	margin: 0;
+	padding: 0;	
+}
 
 body {
-	background: #000000 url('img/body-bg.jpg') no-repeat center top;
+	background: #000000 url('img/barbershop-index-template.jpg') no-repeat 50% 3px;
 	background-size: 1122px auto;
-	font-family: "PT Sans Narrow", "Arial", sans-serif;
-	text-transform: uppercase;
-	color: #ffffff;
 }
 
 .clearfix::after {
@@ -15,6 +18,13 @@ body {
 	clear: both;
 }
 
+.main-header {
+	margin-bottom: 60px;
+	
+	/* временно */
+	background-color: rgba(135, 237, 183, 0.58);
+}
+
 .container {
 	width: 940px;
 	margin: 0 auto;
@@ -22,52 +32,19 @@ body {
 	
 	/* временно */
 	background-color: rgba(250, 221, 141, 0.34);
-
 }
 
-/* Навигация и шапка */
-
-.main-header {
-	margin-bottom: 60px;
-	background-color: #000000;
-	color: #ffffff;
-}
-
-/* навигация */
 .main-navigation {
+	min-height: 70px;
 	float: left;
 	width: 780px;
-}
-
-.main-navigation ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	font-size: 0;
-}
-
-.main-navigation li {
-	display: inline-block;
-	font-size: 16px;
-	line-height: 20px;
 	
-	/* в этом месте не совсем понятно зачем? */
-	vertical-align: top;
-}
-
-.main-navigation a {
-	display: block;
-	padding: 25px 20px;
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.main-vaigation a:hover {
-	background: #242424;
+	/* временно */
+	background-color: rgba(236, 89, 219, 0.31);
 }
 
 .user-block {
-	min-height: 72px;
+	min-height: 70px;
 	float: right;
 	width: 140px;
 	

@@ -1,0 +1,54 @@
+html,
+body {
+	min-width: 1122px;
+	min-height: 1762px;
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background: #000000 url('img/barbershop-index-template.jpg') no-repeat 50% 3px;
+	background-size: 1122px auto;
+}
+
+.clearfix::after {
+	content: "";
+	
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	margin-bottom: 60px;
+	
+	/* временно */
+	background-color: rgba(135, 237, 183, 0.58);
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+	
+	/* временно */
+	background-color: rgba(250, 221, 141, 0.34);
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+	
+	/* временно */
+	min-height: 70px;
+	background-color: rgba(236, 89, 219, 0.31);
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+	
+	/* временно */
+	min-height: 70px;
+	background-color: rgba(99, 190, 246, 0.47);
+}

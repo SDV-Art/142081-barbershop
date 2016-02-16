@@ -38,17 +38,23 @@
 		</div>
 		
 		<div class="manufacters-products">
-            <form action="#" method="post">
-	            <legend>Производители:</legend>
-	            <input type="checkbox" id="bax-of-calif-ID" value="bax-of-calif-VAL" name="bax-of-calif-NAME"> <label class="bax-of-calif-LAB" for="bax-of-calif-ID">Baxter of California</label><br>
+            <form class="filter" action="#" method="post">
+	            <fieldset class="filter-block">
+	            <legend class="filter-title">Производители:</legend>
+	            
+	            <input type="checkbox" id="bax-of-calif-ID" value="bax-of-calif-VAL" name="manufacters[]"> 
+	            <label class="filter-label" for="bax-of-calif-ID">Baxter of California</label><br>
+	            
 	            <input type="checkbox" id="mr-natty-ID" value="mr-natty-VAL" name="mr-natty-NAME"> <label class="mr-natty-LAB" for="mr-natty-ID">Mr Natty</label><br>
 	            <input type="checkbox" id="suavec-ID" value="suavec-VAL" name="suavec-NAME"> <label class="suavec-LAB" for="suavec-ID">Suavetico</label><br>
 	            <input type="checkbox" id="main-Goetz-ID" value="main-Goetz-VAL" name="main-Goetz-NAME"> <label class="main-Goetz-LAB" for="main-Goetz-ID">Malin Goetz</label><br>
 	            <input type="checkbox" id="murrays-ID" value="murrays-VAL" name="murrays-NAME"> <label class="murrays-LAB" for="murrays-ID">Murray's</label><br>
 	            <input type="checkbox" id="americ-crew-ID" value="americ-crew-VAL" name="americ-crew-NAME"> <label class="americ-crew-LAB" for="americ-crew-ID">American Crew</label><br>
-            </form>
-            
-            <form action="#" method="post">
+	            </fieldset>
+	            
+<!-- сделай снизу как сверху, везде см. лэйбл -->
+
+
 	            <legend>Группы товаров:</legend>
 	            <input type="radio" id="shaving-accessories-ID" value="shaving-accessories-VAL" name="accessories-groups"><label for="shaving-accessories-ID">Бритвенные принадлежности</label><br>
 	            <input type="radio" id="care-tools-ID" value="care-tools-VAL" name="accessories-groups"><label for="care-tools-ID">Средства для ухода</label><br>
@@ -56,16 +62,21 @@
 	            <button type="button">Показать</button>
             </form>
 		</div>
-		
+
+
+<!-- ниже образец, поправь отсальные -->		
 		<div class="products-list">
-			<div class="product-container">
-				<a class="item-bax-of-calif-journey-img-sm" href="index.html"><img src="img/bax-of-calif-journey-img-sm.jpg" alt=""></a><br>
-				<a class="product-group" href="#">Набор для путешествий</a><br>
-				<a class="bax-of-calif-inside" href="#">"Baxter of California"</a>
-				<div>
-					<span class="list-price">2900 руб.</span><span class="buy-button-container"><a class="buy-button-text" href="#">Купить</a></span>
+			<div class="product">
+				<a class="product-img" href="index.html"><img src="img/bax-of-calif-journey-img-sm.jpg" alt=""></a>
+				<a class="product-name" href="#">Набор для путешествий <span class="product-brand">"Baxter of California"</span></a>
+				<div class="product-buy">
+					<span class="product-price">2900 руб.</span>
+					<a class="btn product-btn" href="#">Купить</a>
 				</div>
 			</div>
+
+
+			
 			<div class="product-container">
 				<a class="item-bax-of-calif-conditioner-img-sm" href="index.html"><img src="img/bax-of-calif-conditioner-img-sm.jpg" alt=""></a><br>
 				<a class="product-group" href="#">Увлажняющий кондиционер</a><br>
